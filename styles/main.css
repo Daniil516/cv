@@ -5,3 +5,15 @@ li {
 .my-photo {
     border-radius: 45px;
 }
+
+.github-logo {
+    margin-right: 15px;
+    width: 150px;
+    height: auto;
+}
+
+.telegram-logo {
+    margin-right: 15px;
+    width: 50px;
+    height: auto;
+}
