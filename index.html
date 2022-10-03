@@ -1,64 +1,121 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>CV</title>
-  <link rel="stylesheet" href="Skeleton-2.0.4/css/normalize.css">
-  <link rel="stylesheet" href="Skeleton-2.0.4/css/skeleton.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>GRISHCHENKO DANIIL CV</title>
 </head>
 <body>
-<div class="container">
-  <h1><em>Grishchenko Daniil</em></h1>
-  <h2><em>Ruby Backend Developer(intern)</em></h2>
-  <div class="row first_paragraph">
-    <img class="five columns" src="images/639824626.jpeg" alt="Me">
-    <div class="five columns column u-pull-right">
-      <h3>My skills</h3>
-      <ul>
-        <li>Ruby</li>
-        <li>HTML&CSS</li>
-        <li>Ruby on Rails</li>
-        <li>SQL(DATABASES: MySQl, SQLite)</li>
-        <li>XML</li>
-        <li>JSON</li>
-        <li>RSpec</li>
-        <li>Git&GitHub</li>
-      </ul>
+<div class="wrapper">
+    <div class="container mt-5 pt-4 shadow p-3 mb-5 bg-white rounded">
+        <div class="row justify-content-lg-between justify-content-md-center">
+            <img src="images/639824626.jpeg" class="col-lg-3 mb-4 my-photo" alt="Me" style="max-width: 330px;">
+            <div class="col-lg-8 col-md-6">
+                <h1 class="text-primary">Grishchenko Daniil</h1>
+                <h2 class="mt-2 text-primary">Ruby on Rails backend developer</h2>
+                <ul class="mt-lg-5 mt-sm-3">
+                    <li>Age: 19</li>
+                    <li>Location: Moscow(Ready to move)</li>
+                    <li>Languages: Russian(native), English(B2)</li>
+                    <li>Ready to work full-time</li>
+                    <li>Salary expectation: 900$ per month</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 class="text-center mt-5 mb-5 text-primary">Skills</h2>
+        <div class="skills row mt-4 justify-content-around">
+            <div class="col-sm-5 col-lg-3 col-xs-3" style="max-width: 259px;">
+                <div class="card text-left h-75 shadow p-3 mb-5 bg-white rounded">
+                    <h3 class="text-center">Backend</h3>
+                    <ol class="pt-2">
+                        <li>Ruby</li>
+                        <li>Ruby on Rails</li>
+                        <li>DB's: postgres, sqlite, redis</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="col-sm-5 col-lg-3 col-xs-4" style="max-width: 259px;">
+                <div class="card text-left h-75 shadow p-3 mb-5 bg-white rounded">
+                    <h3 class="text-center">Frontend</h3>
+                    <ol class="pt-2">
+                        <li>HTML&CSS</li>
+                        <li>JS</li>
+                        <li>Boostrap</li>
+                        <li>Jquery</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="col-sm-5 col-lg-3" style="max-width: 259px;">
+                <div class="card text-left h-75 shadow p-3 mb-5 bg-white rounded">
+                    <h3 class="text-center">Testing</h3>
+                    <ol class="pt-2">
+                        <li>RSpec</li>
+                        <li>FactoryGirl</li>
+                        <li>Capybara</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="col-sm-5 col-lg-3" style="max-width: 259px;">
+                <div class="card text-left h-75 shadow p-3 mb-5 bg-white rounded">
+                    <h3 class="text-center">Other</h3>
+                    <ol class="pt-2">
+                        <li>JSON</li>
+                        <li>XML</li>
+                        <li>Git</li>
+                        <li>Capistrano</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="row offset-1">
+            <div class="text-left col-lg-5 mb-4">
+                <h2 class="text-primary">Education</h2>
+                <ul class="mt-3">
+                    <li>RANEPA liberal arts degree(student, 2021-now)</li>
+                    <li>Ruby on Rails development course(<a
+                            href="https://goodprogrammer-ru.translate.goog/rails?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp">Here</a>
+                        you can check what I've learned)
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-7 mb-4">
+                <h2 class="text-primary">My rails projects I am proud of(with photos)</h2>
+                <ul>
+                    <li><a class="text-success" href="https://github.com/Daniil516/ask.me-clone">Ask-me clone</a></li>
+                    <li><a class="text-success" href="https://github.com/Daniil516/Wanna-go-out">Wanna go out</a></li>
+                    <li><a class="text-success" href="https://github.com/Daniil516/my-instatalk">My instatalk</a></li>
+                </ul>
+            </div>
+
+            <div class="col mb-4">
+                <h2 class="text-primary text-left">Experience</h2>
+                <ul>
+                    <li>Manual tester in yandex(3 months)</li>
+                    <li>Your job could be here :)</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-7">
+                <h2 class="text-primary text-left">Contacts && Additional</h2>
+                <a href="https://github.com/Daniil516"><img class="github-logo" src="images/github-logo.png" alt="Github"></a>
+                <a href="https://t.me/Grishchenko1"><img class="telegram-logo" src="images/telegram-logo.svg.webp" alt="Telegram"></a>
+                <span class="text-nowrap">email: grishchenko_daniil_1@mail.ru</span>
+            </div>
+        </div>
+
     </div>
-  </div>
-  <div class="paragraph">
-    <h3>Experience</h3>
-    <ol class="u-pull-left">
-      <li>Manual tester in yandex (3 months)</li>
-      <li><em>Your job could be here :)</em></li>
-    </ol>
-  </div>
-  <div class="paragraph">
-    <h3>Qualification</h3>
-    <ul class="u-pull-left">
-      <li>RANEPA liberal arts degree (in process)</li>
-      <li>"Good Programmer" course: Ruby on Rails development (in process, finish date: october)</li>
-    </ul>
-  </div>
-  <div class="paragraph">
-    <h3>Some facts about me</h3>
-    <ul>
-      <li>Age: 19</li>
-      <li>Location: Moscow (Ready to move)</li>
-      <li>Languages: Russian(native), English(B2)</li>
-      <li>Wanted salary: 800$</li>
-      <li>Ready to work full-time</li>
-      <li>Eager for work and exploration in development</li>
-    </ul>
-    <div class="paragraph">
-      <h3>Additional</h3>
-      <ul>
-        <li>Tap <a href="https://goodprogrammer.ru/rails">here</a> to see what I am learning in my development course</li>
-        <li>My GitHub <a href="https://github.com/Daniil516">here</a></li>
-      </ul>
-    </div>
-  </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 </html>
