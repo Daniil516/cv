@@ -7,13 +7,20 @@ li {
 }
 
 .github-logo {
-    margin-right: 15px;
     width: 150px;
     height: auto;
 }
 
 .telegram-logo {
-    margin-right: 15px;
     width: 50px;
     height: auto;
+}
+
+.email-logo {
+    width: 50px;
+    height: auto;
+}
+
+.my-words {
+    color: #4C5454
 }
