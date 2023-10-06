@@ -1,3 +1,3 @@
 # cv
 Here is my cv
-https://daniil516.github.io/CV/
+https://danchulesku.github.io/CV/
